@@ -1,0 +1,24 @@
+{
+    "name": "mageup/pt_br",
+    "description": "Magento2 Brazilian Portuguese Language Pack (pt_BR)",
+    "version": "1.0.0",
+    "homepage": "https://mageup.com.br",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Web2View Core Team",
+            "homepage": "https://web2view.com.br/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*"
+    },
+    "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
